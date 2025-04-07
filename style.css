@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    padding-top: 86px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #2A5B8A;
+    padding: 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+footer {
+    background-color: #1A3D6E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.div_esq {
+    flex: 1;
+    text-align: left;
+}
+
+.div_dir {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.insta_git {
+    max-width: 28px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 1%;
+}
+
+.btn {
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffaa00;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+}
+
+.text_port {
+    font-size: 8px;
+    margin-left: 1.8%;
+    margin-top: 0.80%;
+}
+
+.conteudo {
+    background-color: #85c1e9;
+    margin: 1% auto;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1500px;
+    min-width: 300px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.h1 {
+    font-size: 280%;
+    text-align: center;
+    justify-content: center;
+}
+
+.h2 {
+    font-size: 140%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0.85%;
+}
+
+.h11 {
+    font-size: 180%;
+    text-align: center;
+    justify-content: center;
+}
+
+.att1,
+.att2 {
+    width: clamp(400px, 90%, 1200px);
+    max-width: 1100px;
+    min-width: 300px;
+    border-radius: 10px;
+    padding: 28px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.att1 {
+    background-color: #ebf5fb;
+}
+
+.att2 {
+    background-color: #aed6f1;
+}
+
+.valor_moeda {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+
+@media (max-width: 768px) {
+    .conteudo {
+        width: 90%;
+    }
+
+    .att1,
+    .att2 {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo {
+        width: 100%;
+    }
+
+    .att1,
+    .att2 {
+        width: 100%;
+    }
+}
+
+.nom_val {
+    background-color: #2A5B8A;
+    width: clamp(300px, 90%, 1200px);
+    max-width: 90vw;
+    border-radius: 10px;
+    padding: 7px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text5 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.text5:first-child {
+    text-align: left;
+}
+
+.text5:last-child {
+    text-align: right;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
