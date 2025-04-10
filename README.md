@@ -37,8 +37,8 @@ Um site simples e funcional para conversão de moedas em tempo real. Criado com 
 
 -Desenvolvedores
 
-   -Reivisson Luiz Cordeiro**  
+   -Reivisson Luiz Cordeiro
      (reivissonlzcordeiro@gmail.com)
 
-   -Willy Robert Viana**  
+   -Willy Robert Viana
      (willyrobertv97@gmail.com)
